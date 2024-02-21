@@ -10,7 +10,7 @@ API_ID = int(getenv("API_ID", "25698395")) #optional
 API_HASH = getenv("API_HASH", "fe32dc62fb3b986ada525ff09ca1fee9") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6546053871").split()))
-OWNER_ID = int(getenv("OWNER_ID", "6546053871"))
+OWNER_ID = int(getenv("OWNER_ID", 6546053871))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://missaimeejacobi:aho3zVSi5cB08Gri@agent007.tdgmins.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6765523076:AAFxW8KJzZMicDlPNjd9YSUFBeM04ksDpFU")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
